@@ -1,0 +1,8 @@
+<h1>School Index</h1>
+
+
+<ol>
+  <li><% @schools.each do |school| %></li>
+  <li><%= link_to school.title, school %></li>
+  <li><% end %></li>
+</ol>
